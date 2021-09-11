@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/style/style.css">
+</head>
+<body>
+    <div  class="center secret" id="passwordAsk">
+        <div class="header">
+            <div onclick="alert('Jangan keluar dulu dong:(')" class="red header-circle"></div>
+            <div class="yellow header-circle"></div>
+            <div class="green header-circle"></div>
+
+        </div>
+        <div class="header-content">
+            <p>Password : B**E</p>
+        </div>
+
+        <div class="form">
+            <form  onsubmit="return false;">
+                <input autofocus id="password" type="password">
+                <button id="passwordCheck" type="submit">Kirim</button>
+            </form>
+        </div>
+
+    </div>
+    <div id="openingSong">
+        <audio controls autoplay style="display: none;">
+            <source src="./src/opening.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+    </div>
+    <div id="main">
+        <div id="question" class="hide">
+            <div class="center secret" id="test">
+                <div class="header">
+                    <div onclick="alert('Jangan keluar dulu dong:(')" class="red header-circle"></div>
+                    <div class="yellow header-circle"></div>
+                    <div class="green header-circle"></div>
+                </div>
+                <div class="header-content" >
+                    <div id="modalText"></div>
+                    <div class="button">
+
+                    </div>
+
+                </div>
+
+        </div>
+    </div>
+
+</body>
+<script src="./src/script/index.js"></script>
+</html>
