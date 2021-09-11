@@ -181,65 +181,65 @@ function myQuestion() {
     questionContainer.classList.remove('hide')
     
     if(q == 1) {
-        specialQuestion('Wah bener..., Tapi aku masih belum percaya nih. Ketik nama kamu dulu ya. ')
+        specialQuestion('dihh bener..., Tapi aku belum percayaaa😋. coba siapa nama kamuu. ')
     } else if(q == 2) {
-        questionContent(`Tetot... Nama kamu bukan ${yourName}. Disini... nama kamu itu sayangnya jeje 😋`)
+        questionContent(`Tetot... Nama kamu bukan ${yourName}. Disini... nama kamu itu sayangnya jejee 😋`)
     } else if(q == 3) {
         questionContent('Your support system is ready...')
     } else if(q == 4) {
         questionContent('hello..., Jeje disini!')
     } else if(q == 5) {
-        questionContent('Jeje ingin memberikan semangat nih buat Kamu')
+        questionContent('aku pengen nyemangatin kamuu nihh...')
     } else if(q == 6) {
-        questionContent('Here we go...!')
+        questionContent('aku mulai yaa...!')
     } else if(q == 7) {
-        questionContent('Tanggal 4 Juni... Sekali lagi, Pertarunganmu bakal dimulai...')
+        questionContent('tanggal 13 september pertarungan kamu bakal dimulai lagi nihh')
     } else if(q == 8) {
-        questionContent('tahun ini lombanya berat banget ya?')
+        questionContent('tahun ini capek banget kan yakk?')
     } else if(q == 9) {
-        questionContent('Mulai dari kebumian yang bukan passion kamu...')
+        questionContent('Mulai dari besokk kebumian yang bukan passion kamu dan dilanjutin lagi sama lomba APBN nya kann')
     } else if(q == 10) {
-        questionContent('Terus robot yang disuruh cari tema lagi kan?, soalnya lombanya bakalan beda...')
+        questionContent('Terus robot yang disuruh cari tema lagi kan?, soalnya lomba yang diikutin bakal beda...')
     } else if(q == 11) {
-        questionContent('Maaf ya..., Aku gak bisa ngasih saran apa-apa buat kamu...')
+        questionContent('Maaf yaa sayangg, Aku gak bisa ngebantu apa apa😢...')
     } else if(q == 12) {
-        questionContent('Tapi.. kamu masih kuat kan? Semangat! keduanya udah didepan mata, belum lagi ujian kenaikan kelas kamu nih')
+        questionContent('Tapi.. aku tau kamu kuattt bangettt, Semangat!! keduanya udah didepan mata, belum lagi ujian kenaikan kelas kamu nihh')
     } else if(q == 13) {
-        questionContent('Aku disini cuma bisa ngasih semangat dan terus berdoa buat kamu.')
+        questionContent('Aku disini cuma bisa ngasih semangat semangat dan terus berdoa buat kamu.')
     } else if(q == 14) {
-        questionContent('okay.. Jeje disini bakal semangatin sayangnya')
+        questionContent('okayy sini aku semangatinn!')
     } else if(q == 15) {
         removeMusic()
-        voiceOverContent('Jeje ninggalin vn nih buat kamu, dengar yaa...')    
+        voiceOverContent('wkwkwk vn-nya masih sama soalnya aku pikir masih relate, didengerin yaa bebs')    
     } else if(q == 16) {
-        questionContent('Disini.. Si merah sma Si coklat semangatin juga loh...!')
+        questionContent('Disini ibu sama bapak juga selalu dukung lomba kamuu terus lohh, selalu di tanyain kapan kamu lombaa')
     } else if(q == 17) {
-        questionContent('Katanya "Cemumut ya mami... disini kita berdoa juga loh"')
+        questionContent('Kata ibu "Kalah menang udah biasa, yang penting cara kamu menghadapinya yang bisa buat kamu luar biasa", dihh klasik banget aku bilang😂')
     } else if(q == 18) {
-        questionContent('Aku punya pertanyaan nih buat kamu...')
+        questionContent('bi... aku punya pertanyaan nih buat kamuu')
     } else if(q == 19) {
-        questionContent('Udah Senyum belom?', 'udah') // question
+        questionContent('Sekarang udah Senyum belom?', 'udah') // question
         questionContentAddCancelButton("Belum")
     } else if(q == 20) {
         moveQuestionContentAddCancelButton()
-        questionContent('Tambah sayang?', 'iya') // question
+        questionContent('Tambah sayang gak nih sama akuu?', 'iya') // question
         questionContentAddCancelButton("Engga")
     } else if(q == 21) {
         moveQuestionContentAddCancelButton()
-        questionContent('agak maksa ya? hheheh....', 'Lanjut') // question
+        questionContent('Waduhh pemaksaan nihh, Biarain dehh😋', 'Lanjut') // question
     } else if(q == 22) {
         moveQuestionContentAddCancelButton()
-        questionContentReverse('udah semangat?', 'udah') // question
+        questionContentReverse('udah semangat belom sekarang?', 'udah') // question
         buttonContainer.innerHTML += cancelButtonInitiator.normal('belum')
     } else if(q == 23) {
         moveQuestionContentAddCancelButton()
-        videoContent('kalo belum semangat..., pernah mikir gak gimana ekspresi aku kalo ngomong sayang ke kamu? nih videonya.', './src/vid.mp4')
+        videoContent('yahhh kok belom sihh😌,kalo gituu pernah mikir gak gimana ekspresi aku kalo ngomong sayang ke kamu? nih videonya.', './src/vid.mp4')
     } else if(q == 24) {
         moveQuestionContentAddCancelButton('Lanjut')
-        gifContent('Bi... Semangat!')
+        gifContent('Bi... Aku sayang kamuu!')
     } else if(q == 25) {
         moveQuestionContentAddCancelButton('Lanjut')
-        questionContent('Tetap sama aku ya..!', 'iya') // question
+        questionContent('Tetap sama aku ya sayangg!', 'iya') // question
         hiddenAudio()
         questionContentAddCancelButton("Engga")
     } else if(q == 26) {
